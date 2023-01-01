@@ -27,6 +27,7 @@ body {
     display: grid;
     place-items: center;
     padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 7rem;
     -webkit-text-stroke: 0.1rem rgb(241, 241, 241);
 }
