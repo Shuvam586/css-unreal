@@ -15,7 +15,7 @@ body {
     color: rgb(241, 241, 241);
     display: grid;
     grid-template-columns: 1fr 1.25fr;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* padding: 1rem; */
 }
 
