@@ -15,7 +15,7 @@ body {
     color: rgb(241, 241, 241);
     display: grid;
     grid-template-columns: 1fr 1.25fr;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* padding: 1rem; */
 }
 
@@ -26,11 +26,38 @@ body {
 .heading {
     display: grid;
     place-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 3rem;
     -webkit-text-stroke: 0.1rem rgb(241, 241, 241);
 }
+
+.know-more {
+    font-size: 1rem;
+    -webkit-text-stroke: 0;
+    background: #444444;
+    color: rgb(230, 230, 230);
+    width: fit-content;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+
+.know-more:hover {
+    background: #b6b6b6;
+    color: #1d1d1d;
+}
+
+.know-more:first-of-type { margin-left: 0; }
+
+.icon { padding-right: 5px; }
+
+.fa-link { color: #00aeffde; }
+.fa-youtube { color: #ff4242e8; }
 
 .scrolls {
     padding-right: 2rem;
@@ -63,7 +90,7 @@ body {
 
 .opor {
     transform: translateY(-100%);
-    transition: linear all 45s;
+    transition: linear all 120s;
 }
 
 .niche {
@@ -73,10 +100,10 @@ body {
 
 .scroll:nth-child(2){
     transition-delay: 200ms;
-    transition-duration: 30s;
+    transition-duration: 150s;
 }
 
 .scroll:nth-child(3){
     transition-delay: 300ms;
-    transition-duration: 60s;
+    transition-duration: 100s;
 }
