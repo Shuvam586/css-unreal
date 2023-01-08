@@ -11,18 +11,17 @@ const pins = {
     10: {name: 'an old man in a yelow raincoat eating watermelon', value: 'https://i.pinimg.com/564x/79/e9/2d/79e92d71e7eced540ba96fb8af0a0c79.jpg'}
 }
 
-scrolls = document.getElementsByClassName('scroll');
-
-scrollContent = [];
-for (let i = 0; i < 3; i++) {
-    for (let j = 0 ; j < 60; j++) {
-        chosen = pins[Math.floor(Math.random() * 10) + 1];
-        document.querySelector(`.scroll-${i+1}`).innerHTML += `<div class="scroll-item">
-        <div class="scroll-item-heading">${chosen.name}</div>
-        <img src="${chosen.value}" alt="${chosen.name}" class="scroll-item-img">
-        </div>`
-    }
-} 
+setInterval(() => {
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0 ; j < 60; j++) {
+            chosen = pins[Math.floor(Math.random() * 10) + 1];
+            document.querySelector(`.scroll-${i+1}`).innerHTML += `<div class="scroll-item">
+            <div class="scroll-item-heading">${chosen.name}</div>
+            <img src="${chosen.value}" alt="${chosen.name}" class="scroll-item-img">
+            </div>`
+        }
+    } 
+}, 4000);
 
 
 
