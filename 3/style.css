@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    background: #1d1d1d;
+    color: rgb(248, 248, 248);
+    display: grid;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.gap {
+    width: 15px;
+}
+
+.main-letters {
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    /* position: absolute; */
+}
+
+.letter {
+    position: relative;
+    transition: 600ms ease;
+}
+
+.main-letters:hover > .letter:nth-child(1) {
+    transform: translateY(-20px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(2) {
+    transform: translateX(-200px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(3) {
+    transform: translateY(10px) translateX(12px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(4) {
+    transform: translateY(-30px) translateX(5px) rotate(5deg);
+}
+
+.main-letters:hover > .letter:nth-child(5) {
+    transform: rotate(25deg);
+}
+
+.main-letters:hover > .letter:nth-child(6) {
+    transform: translateY(20px) translateX(-6px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(7) {
+    transform: translateY(-15px) translateX(-10px) rotate(-15deg);
+}
+
+.main-letters:hover > .letter:nth-child(8) {
+    transform: rotate(30deg);
+}
+
+.main-letters:hover > .letter:nth-child(9) {
+    transform: translateY(10px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(10) {
+    transform: translateY(-20px) translateX(-5px) rotate(10deg);
+}
+
+.main-letters:hover > .letter:nth-child(11) {
+    transform: translateY(-20px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(12) {
+    transform: translateX(0px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(13) {
+    transform: translateY(10px) translateX(12px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(14) {
+    transform: translateY(-30px) translateX(5px) rotate(5deg);
+}
+
+.main-letters:hover > .letter:nth-child(15) {
+    transform: rotate(25deg);
+}
+
+.main-letters:hover > .letter:nth-child(16) {
+    transform: translateY(20px) translateX(-6px) rotate(-10deg);
+}
+
+.main-letters:hover > .letter:nth-child(17) {
+    transform: translateY(-15px) translateX(-10px) rotate(-15deg);
+}
+
+.main-letters:hover > .letter:nth-child(18) {
+    transform: rotate(30deg);
+}
+
+.main-letters:hover > .letter:nth-child(19) {
+    transform: translateY(-20px) rotate(-30deg);
+}
+
+.main-letters:hover > .letter:nth-child(20) {
+    transform: translateY(10px) rotate(-10deg);
+}
